@@ -2,7 +2,7 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android" id="cordova-plugin-videocall" version="0.1.0">
    <name>videocall</name>
    <js-module name="videocall" src="www/videocall.js">
-      <clobbers target="videocall" />
+      <clobbers target="videocall" /> 
    </js-module>
    <platform name="android">
       <config-file parent="/*" target="res/xml/config.xml">
